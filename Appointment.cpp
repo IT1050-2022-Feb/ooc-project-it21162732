@@ -30,8 +30,8 @@ appointment::appointment(char appointmentNO[], char appointmentLO[], char appoin
 }
 void appointment::displayAppointmentDetails(){
 	cout<<"Appointment NO:"<<appNO<<endl;
-  cout<<"Appointment Location:"<<appLocation<<endl;
-  cout<<"Appointment Date:"<<appDate<<endl;
+        cout<<"Appointment Location:"<<appLocation<<endl;
+        cout<<"Appointment Date:"<<appDate<<endl;
 
 }
 appointment::~appointment(){}
