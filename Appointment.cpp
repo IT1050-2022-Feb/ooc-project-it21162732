@@ -29,7 +29,9 @@ appointment::appointment(char appointmentNO[], char appointmentLO[], char appoin
 	strcpy(appDate,appointmentDate);	
 }
 void appointment::displayAppointmentDetails(){
-	cout
-	
+	cout<<"Appointment NO:"<<appNO<<endl;
+  cout<<"Appointment Location:"<<appLocation<<endl;
+  cout<<"Appointment Date:"<<appDate<<endl;
+
 }
 appointment::~appointment(){}
